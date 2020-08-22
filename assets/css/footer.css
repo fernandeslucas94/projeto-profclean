@@ -1,0 +1,60 @@
+footer {
+    background-color: #191970;
+    height: 200px;
+    margin-top: auto;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    color: #CCC;
+}
+
+.contato,
+.endereco,
+.horario-funcionamento {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 50px;
+
+    margin-top: 50px;
+
+    text-align: center;
+}
+
+.horario-funcionamento h2 {
+    margin-bottom: 10px;
+}
+
+.contato h2 {
+    margin-bottom: 10px;
+}
+
+.endereco h2 {
+    margin-bottom: 10px;
+}
+
+.phone {
+    margin-bottom: 5px;
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+.sexta {
+    margin-top: 5px;
+}
+
+.assinatura {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.assinatura h4 {
+    margin-top: 40px;
+    color: #CCC;
+}

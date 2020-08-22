@@ -1,0 +1,33 @@
+/* BODY */
+.container {
+    width: 95vw;
+    height: 100%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+.container h1 {
+    font-weight: 700;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #4F4F4F;
+}
+
+.image {
+    float: left;
+    margin-top: 40px;
+    margin-left: -330px;
+}
+
+.text {
+    margin-top: 70px;
+    display: block;
+}
+
+.text p {
+    margin-bottom: 40px;
+    color: 	#4F4F4F	;
+}
+
+/* End Body */
