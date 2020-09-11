@@ -1,3 +1,7 @@
+@media (max-width: 640px) {
+
+}
+
 @media (max-width: 360px) {
     
     #page-body {
@@ -26,14 +30,26 @@
         margin-left: 350px;
         height: 550px;
         width: 330px;
+        margin-bottom: -400px;
     }
 
-    .text {
+    .text p {
         width: 700px;
     }
 
     footer {
         width: 725px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .rodape {
+        margin-top: 30px;
+    }
+
+    .assinatura h4 {
+        margin-bottom: 30px;
     }
 
     .assinatura {
